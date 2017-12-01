@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CREATENAVWINDOW</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import "ViewController.h"
+    
+    ViewController *rootVC = [[ViewController alloc] init];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    self.window.rootViewController = navVC;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>44FBDA75-638B-48BA-AE55-D5423BF7AFD8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>createnavwindow</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>navWindow</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
